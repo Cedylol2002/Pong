@@ -9,7 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
+!/Packages/manifest.json
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -70,3 +70,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/PolygonNatureBiomes/URP_ExtractMe/Unity_2021.unitypackage.meta
+Assets/PolygonNatureBiomes/URP_ExtractMe/Unity_2022.unitypackage.meta
+Assets/PolygonSciFiSpace/URP_ExtractMe.unitypackage.meta
+Assets/Prefabs/Imported Prefabs/PolygonNature/Shaders/LWRP.unitypackage.meta
+Assets/Prefabs/Imported Prefabs/PolygonNature/URP_Extract_Me.unitypackage.meta
+Assets/Materials/Tutorial/IndicatorArrow.mat
+Assets/Materials/BuildingSystem/PreviewTowerMaterial.mat
+Assets/Knife/Customizable Hologramm Shader/SRP Support/Sci Fi Hologram Shader URP.unitypackage.meta
+Assets/Materials/Tutorial/IndicatorArrow.mat
+Assets/Materials/BuildingSystem/PreviewTowerMaterial.mat
+Assets/Materials/BuildingSystem/PreviewTowerMaterial 1.mat
+Assets/Materials/BuildingSystem/PreviewTowerMaterial.mat
