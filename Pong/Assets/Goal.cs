@@ -5,6 +5,7 @@ using UnityEngine;
 public class Goal : MonoBehaviour
 {
     [SerializeField] private Goal _EnemyGoal;
+    [SerializeField] private ScoreText _ScoreText;
     [SerializeField] private bool isPlayerOne;
 
     public void Score()
@@ -16,11 +17,11 @@ public class Goal : MonoBehaviour
     {
         if(isPlayerOne)
         {
-            Debug.Log("Player 1 scored!");
+            _ScoreText.increaseScoreOne();
         }
         else
         {
-            Debug.Log("Player 2 scored!");
+            _ScoreText.increaseScoreTwo();
         }
     }
 }
