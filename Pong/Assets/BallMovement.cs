@@ -17,6 +17,11 @@ public class BallMovement : MonoBehaviour
     {
         // Ballbewegung
         transform.Translate(direction * speed * Time.deltaTime);
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            transform.transform.position = Vector3.zero;
+            direction = Random.insideUnitCircle.normalized;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
