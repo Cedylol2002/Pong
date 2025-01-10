@@ -19,8 +19,7 @@ public class BallMovement : MonoBehaviour
         transform.Translate(direction * speed * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.R))
         {
-            transform.transform.position = Vector3.zero;
-            direction = Random.insideUnitCircle.normalized;
+            RestartBall();
         }
     }
 
